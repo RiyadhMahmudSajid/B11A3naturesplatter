@@ -31,6 +31,11 @@
         .gradient{
             background: linear-gradient(136.38deg, rgb(83, 219, 58) 25.666%,rgb(255, 255, 255) 108.596%);
         }
+        .place::placeholder{
+            padding-left: 18px;
+            color:#C4C4C4;
+            
+        }
     </style>
 </head>
 <body class="sora box-border">
@@ -40,7 +45,7 @@
                 <img src="./c2-assets/logo-header.png" alt="">
             </div>
             <div class="hidden md:hiddden lg:block ">
-                <ul class="flex gap-8 ml-14">
+                <ul class="flex gap-8 ml-14 -mr-5">
                     <li>Product</li>
                     <li>Services</li>
                     <li>Contact us</li>
@@ -54,8 +59,9 @@
                 <button class="py-2.5 px-7 border bg-[#179800] rounded-lg text-sm text-white ">Register</button>
             </div>
         </nav>
-        <h1 class="text-center animate-pulse text-2xl text-[#179800]">Welcome</h1>
+        
         <div>
+            <h1 class="text-center animate-pulse text-base lg:text-3xl text-[#179800]">Welcome</h1><!--Animation-->
             <div class="text-center pt-12 lg:pt-24 w-10/12 lg:w-2/3 mx-auto">
                 <h1 class=" text-[32px] lg:text-[56px] leading-10 lg:leading-[71px] font-semibold">Freshness <Span class="text-[#179800]">You Can <br>Count On, </Span>Prices You’ll Love!</h1>
                 <p class=" text-base lg:text-xl text-[#40403F] leading-5 lg:leading-6 pt-4 lg:pt-8 mb-4 lg:mb-9">Shop your daily essentials at unbeatable prices. From fresh produce to pantry<br>staples, we’ve got you covered every day!</p>
@@ -107,7 +113,7 @@
           <div class="w-11/12 mx-auto mx-auto  py-12 lg:py-[140px]  ">
             <div class=" mb-8 lg:mb-12 "><h2 class="text-[#179800] text-2xl lg:text-4xl font-semibold ">Popular Products</h2></div>
             <div class="grid grid-cols-1 lg:grid-cols-3  lg:grid-rows-3  justify-center items-center">
-                <div class="h-[337px] lg:h-[399px] lg:col-span-1 lg:row-span-3 pl-8   relative gradient  lg:w-11/12 ">
+                <div class="h-[337px] lg:h-[399px] lg:col-span-1 lg:row-span-3 pl-8 rounded-[10px]   relative gradient  lg:w-11/12 ">
                     <h3 class="text-3xl text-white pt-14">30% off</h3>
                     <p class="py-5">Discover a world of treats, toys, and essentials handpicked for </p>
                     <button class="bg-white px-8 py-2.5">Buy Now</button>
@@ -301,7 +307,7 @@
                 <div class="text-center lg:text-justify px-2 lg:px-0" >
                     <h2 class="text-xl lg:text-4xl font-semibold mb-3 lg:mb-8">Get Grocery News!</h2>
                     <p class=" text-base lg:text-xl text-[#111111]">Exclusive training tips, ticks, product deals and more.</p>
-                    <input class="py-4 px-2 lg:px-0 w-11/12 lg:w-8/12 mt-5 lg:mt-9 lg:mb-9  rounded-md lg:rounded-lg" type="email" name="" id="" placeholder="Enter email..."><br>
+                    <input class="py-4 px-2 lg:px-0 w-11/12 lg:w-8/12 mt-5 lg:mt-9 lg:mb-9 place rounded-md lg:rounded-lg" type="email" name="" id="" placeholder="Enter email...."><br>
                     <button class="px-6 lg:px-7 py-2 lg:py-4 mt-3 lg:mt-0 mb-10 lg:mb-0 text-sm lgtext-xl bg-[#179800] text-white rounded-lg ">Subscribe</button>
                 </div>
             </div>
